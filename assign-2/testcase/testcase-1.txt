@@ -1,0 +1,56 @@
+input:
+SEARCH Grab
+DELETE Grab
+ADD Grab,1
+ADD Cindy,3
+SEARCH Grab
+ADD Bob,7
+ADD Ethan,9
+ADD David,4
+ADD Ed,122
+SEARCH Bob
+ADD Kate,5
+ADD Nana,75
+ADD Frank,8
+DELETE Cindy
+SEARCH Ed
+DELETE David
+SEARCH Ed
+DELETE Ed
+SEARCH Frank
+DELETE Kate
+SEARCH Nana
+DELETE Grab
+SEARCH Nana
+DELETE Nana
+DELETE Frank
+SEARCH Frank
+
+output:
+Not found: Grab.
+Cannot delete: Grab.
+Added (Grab,1) at depth 1.
+Added (Cindy,3) at depth 2.
+Found (Grab,1) at depth 1.
+Added (Bob,7) at depth 3.
+Added (Ethan,9) at depth 3.
+Added (David,4) at depth 4.
+Added (Ed,122) at depth 5.
+Found (Bob,7) at depth 3.
+Added (Kate,5) at depth 2.
+Added (Nana,75) at depth 3.
+Added (Frank,8) at depth 4.
+Deleted (Cindy,3).
+Found (Ed,122) at depth 4.
+Deleted (David,4).
+Found (Ed,122) at depth 2.
+Deleted (Ed,122).
+Found (Frank,8) at depth 3.
+Deleted (Kate,5).
+Found (Nana,75) at depth 2.
+Deleted (Grab,1).
+Found (Nana,75) at depth 1.
+Deleted (Nana,75).
+Deleted (Frank,8).
+Not found: Frank.
+
