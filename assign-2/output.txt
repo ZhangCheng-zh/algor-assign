@@ -5,6 +5,15 @@ Added (Alice,4) at depth 3.
 Added (Thomas,5) at depth 2.
 Added (Hannah,6) at depth 3.
 Added (Sam,7) at depth 4.
+Added (Wizard,1) at depth 3.
+Added (Vertex,1) at depth 4.
+Added (ZOO,1) at depth 4.
+Found (ZOO,1) at depth 4.
+Deleted (Wizard,1).
+Found (ZOO,1) at depth 3.
+Deleted (Thomas,5).
+Found (Vertex,1) at depth 2.
+Found (Sam,7) at depth 4.
 Not found: Ben.
 Found (Hannah,6) at depth 3.
 Found (Sam,7) at depth 4.

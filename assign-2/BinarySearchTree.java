@@ -46,7 +46,7 @@ public class BinarySearchTree {
     }
 
     private static boolean checkParametersCount(String[] args) {
-        if (args.length != 2 || args[0].equals("help") || args[0].equals("h") ) {
+        if (args.length != 2 || args[0].equals("help") || args[0].equals("h")) {
             System.out.println("Usage: java BinarySearchtTree <input file name> <output file name>");
             return false;
         }
@@ -271,7 +271,6 @@ public class BinarySearchTree {
                     outputLine = "Found (" + outputStrs[1] + "," + outputStrs[2] + ") at depth " + outputStrs[0] + ".";
                 }
                 outputList.add(outputLine);
-                // System.out.println(outputLine);
             } else if (action.equals(DELETE)) {
                 TreeNode deletedNode = bsTree.delete(name);
 
@@ -281,7 +280,6 @@ public class BinarySearchTree {
                     outputLine = "Deleted (" + deletedNode.name + "," + deletedNode.count + ").";
                 }
                 outputList.add(outputLine);
-                // System.out.println(outputLine);
             }
         }
 

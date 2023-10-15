@@ -5,6 +5,15 @@ ADD Alice,4
 ADD Thomas,5
 ADD Hannah,6
 ADD Sam,7
+ADD Wizard,1
+ADD Vertex,1
+ADD ZOO,1
+SEARCH ZOO
+DELETE Wizard
+SEARCH ZOO
+DELETE Thomas
+SEARCH Vertex
+SEARCH Sam
 SEARCH Ben
 SEARCH Hannah
 SEARCH Sam
