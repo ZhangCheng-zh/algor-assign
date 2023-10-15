@@ -11,7 +11,7 @@ import java.util.ArrayList;
 
 public class Sorter {
     private static boolean checkParametersCount(String[] args) {
-        if (args.length != 4 || args[0].equals("help") ) {
+        if (args[0].equals("help") || args.length != 4) {
             System.out.println("Usage: java Sorter <input file> <number of entries> <mode> <output file>");
             return false;
         }
