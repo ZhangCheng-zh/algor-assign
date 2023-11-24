@@ -11,7 +11,7 @@ public class MatrixChainMultiply {
     }
 
     private static boolean checkParametersCount(String[] args) {
-        if (args[0].equals("-help") || args[0].equals("-h")) {
+        if (args[0].equals("help") || args[0].equals("-h")) {
             System.out.println("Usage: java MatrixChainMultiply <input file>");
             return false;
         }
