@@ -1,26 +1,23 @@
-Not found: Grab.
-Cannot delete: Grab.
-Added (Grab,1) at depth 1.
-Added (Cindy,3) at depth 2.
-Found (Grab,1) at depth 1.
-Added (Bob,7) at depth 3.
-Added (Ethan,9) at depth 3.
-Added (David,4) at depth 4.
-Added (Ed,122) at depth 5.
-Found (Bob,7) at depth 3.
-Added (Kate,5) at depth 2.
-Added (Nana,75) at depth 3.
-Added (Frank,8) at depth 4.
-Deleted (Cindy,3).
-Found (Ed,122) at depth 4.
-Deleted (David,4).
-Found (Ed,122) at depth 2.
-Deleted (Ed,122).
-Found (Frank,8) at depth 3.
-Deleted (Kate,5).
-Found (Nana,75) at depth 2.
-Deleted (Grab,1).
-Found (Nana,75) at depth 1.
-Deleted (Nana,75).
-Deleted (Frank,8).
-Not found: Frank.
+Added (Fred,1) at depth 1.
+Added (Alan,2) at depth 2.
+Added (Adam,3) at depth 3.
+Added (Alice,4) at depth 3.
+Added (Thomas,5) at depth 2.
+Added (Hannah,6) at depth 3.
+Added (Sam,7) at depth 4.
+Added (Wizard,1) at depth 3.
+Added (Vertex,1) at depth 4.
+Added (ZOO,1) at depth 4.
+Found (ZOO,1) at depth 4.
+Deleted (Wizard,1).
+Found (ZOO,1) at depth 3.
+Deleted (Thomas,5).
+Found (Vertex,1) at depth 2.
+Found (Sam,7) at depth 4.
+Not found: Ben.
+Found (Hannah,6) at depth 3.
+Found (Sam,7) at depth 4.
+Cannot delete: George.
+Deleted (Fred,1).
+Found (Hannah,6) at depth 1.
+Found (Sam,7) at depth 3.
