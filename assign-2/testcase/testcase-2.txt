@@ -40,7 +40,7 @@ Found (ZOO,1) at depth 3.
 Deleted (Thomas,5).
 Found (Vertex,1) at depth 2.
 Found (Sam,7) at depth 4.
-Not found: Ben
+Not found: Ben.
 Found (Hannah,6) at depth 3.
 Found (Sam,7) at depth 4.
 Cannot delete: George.
